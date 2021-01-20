@@ -60,11 +60,15 @@ h5 {
 }
 
 .header {
-    background-image: url(./images/gestor\ 1.png);
+    background-image: url(./images/Geoffrey-Riley.png);
     position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
     size: cover;
     /* border-radius: 450px; */
     height: 650px;
+}
+
+.header img {
+    width: 250px;
 }
