@@ -8,6 +8,7 @@ body {
   font-size: 10px;
   line-height: 2.5em;
   font-weight: 400;
+  /* background-color: ; */
 }
 
 /* * {
@@ -24,6 +25,8 @@ h4,
 h5,
 h6 {
     font-family: roboto+condensed;
+    margin: 0;
+    padding: 10px;
 }
 
 h1 {
@@ -31,16 +34,28 @@ h1 {
     text-align: left;
     /* line-height: 2em; */
     font-weight: 400;
+    padding-bottom: 20px;
+    margin: 140px 20px 0 40px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 40px;
     text-align: left;
     /* line-height: 2em; */
-    font-weight: 350;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin: 0 40px;
 }
 
 h3 {
+    font-size: 40px;
+    text-align: left;
+    /* line-height: 2em; */
+    font-weight: 350;
+    margin: 0 40px;
+}
+
+h4 {
     font-size: 36px;
     text-align: center;
     font-weight: 700;
@@ -53,12 +68,8 @@ h5 {
 }
 
 .nav-bar {
-    padding: 14px 0;
+    padding: 14px 0 50px 0;
     position: absolute;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    justify-content: space-between;
 }
 
 .nav-bar img {
@@ -75,7 +86,8 @@ h5 {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .nav-bar li {
@@ -86,11 +98,24 @@ h5 {
     font-weight: bold;
 }
 
+header {
+    width: 1350px;
+    height: 650px;
+}
+
 .header {
     background-image: url(./images/Geoffrey-Riley.png);
     position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
     size: cover;
-    height: 650px;
+    /* height: 650px; */
+    /* padding-top: 100px; */
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
