@@ -28,7 +28,7 @@ h5,
 h6 {
     font-family: roboto+condensed;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
 }
 
 h1 {
@@ -37,6 +37,7 @@ h1 {
     text-align: left;
     font-weight: 400;
     text-shadow: 2px 2px 4px grey;
+    padding-top: 50px;
 }
 
 h2 {
@@ -60,6 +61,12 @@ h4 {
 
 h5 {
     font-size: 2em;
+    text-align: center;
+
+}
+
+h6 {
+    font-size: 1.5em;
     text-align: center;
 
 }
@@ -113,12 +120,11 @@ p {
 header {
     width: 100vw;
     /* height: 650px; */
-    border: 3px solid pink;
 }
 
 .header {
     background-image: url(./images/Geoffrey-Riley.png);
-    background-position: center 2px;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -126,21 +132,17 @@ header {
 #box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 300px;
-    border: 2px solid green;
+    /* padding-top: 20px; */
 }
+
 #box h1, #box h2,#box h3{
     font-size: 5vw;
 }
 
-
-
-
-#aboutSection {
-   /* // margin: 0 100px; */
-  
+#aboutSection {  
    font-size: 10px;
    padding: 20px;
 }
@@ -149,43 +151,46 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid pink;
 }
 
 #caseStudySection {
     margin: 0 100px;
 }
 
+#caseStudySection h4 {
+    margin-bottom: 15px;
+}
 
+.centerText p {
+    text-align: center;
+}
 
+.caseStudy h6 {
+    text-align: left;
+    font-size: 1.8em;
+}
 
-
+.caseStudy p {
+    text-align: justify;
+}
 
 /*Desktop*/
 @media (min-width: 800px){
     #box h1, #box h2,#box h3{
-        font-size: 24px;
-        color: red;
+        font-size: 30px;
+        padding-left: 75px;
     } 
-    body{
+    #box {
+        padding-top: 20px;
+    }
+    /* body{ */
        
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-}
+@media (min-width: 400px){
+    #box h1, #box h2,#box h3{
+        font-size: 20px;
+    } 
+    /* body{ */
+        
+    }
