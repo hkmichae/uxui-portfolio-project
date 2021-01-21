@@ -8,7 +8,9 @@ body {
   font-size: 10px;
   line-height: 2.5em;
   font-weight: 400;
+  overflow-x:hidden;
   /* background-color: ; */
+
 }
 
 /* * {
@@ -34,8 +36,6 @@ h1 {
     color: black;
     text-align: left;
     font-weight: 400;
-    padding-bottom: 20px;
-    margin: 140px 0 0 50px;
     text-shadow: 2px 2px 4px grey;
 }
 
@@ -43,15 +43,12 @@ h2 {
     font-size: 3.5em;
     text-align: left;
     font-weight: 400;
-    padding-bottom: 10px;
-    margin-left: 50px;
 }
 
 h3 {
     font-size: 3.5em;
     text-align: left;
     font-weight: 350;
-    margin-left: 50px;
 }
 
 h4 {
@@ -73,34 +70,40 @@ p {
 }
 
 .nav-bar {
-    padding: 14px 0 50px 0;
+    /* padding: 14px 0 50px 0; */
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .nav-bar img {
-    width: 250px;
+    width: 50vw;
+    max-width: 250px;
 }
 
 .nav-bar a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
+    flex:1;
 }
 
 .nav-bar ul {
+    flex:3;
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-self: flex-start;
+
+
 }
 
 .nav-bar li {
     list-style: none;
-    width: 100px;
+    padding: 10px;
 }
 
 .bold-text {
@@ -108,30 +111,38 @@ p {
 }
 
 header {
-    width: 1350px;
-    height: 650px;
+    width: 100vw;
+    /* height: 650px; */
+    border: 3px solid pink;
 }
 
 .header {
     background-image: url(./images/Geoffrey-Riley.png);
-    position: 0 0;
+    background-position: center 2px;
     background-repeat: no-repeat;
-    background-size: contain;
-    size: cover;
+    background-size: cover;
 }
 
 #box {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 2px solid green;
 }
+#box h1, #box h2,#box h3{
+    font-size: 5vw;
+}
+
+
 
 
 #aboutSection {
    /* // margin: 0 100px; */
-   width: 100vw;
+  
    font-size: 10px;
+   padding: 20px;
 }
 
 .center {
@@ -143,4 +154,38 @@ header {
 
 #caseStudySection {
     margin: 0 100px;
+}
+
+
+
+
+
+
+/*Desktop*/
+@media (min-width: 800px){
+    #box h1, #box h2,#box h3{
+        font-size: 24px;
+        color: red;
+    } 
+    body{
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
