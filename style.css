@@ -163,13 +163,12 @@ header {
     align-items: center;
 }
 
-.centerTable img {
-    width: 59px;
-    height: 75px;
+.centerTable h5 {
+    color: #71ACB4;
 }
 
 #caseStudySection {
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 
 #caseStudySection h4 {
@@ -189,6 +188,15 @@ header {
     text-align: justify;
 }
 
+
+#contactSection {
+
+}
+
+
+
+
+
 /*Desktop*/
 
 @media (min-width: 400px){
@@ -197,6 +205,11 @@ header {
     } 
     .center img {
         width: 400px;
+    }
+
+    .centerTable h5 {
+        padding-right: 40px;
+        padding-left: 20px;
     }
 }
 
@@ -210,5 +223,10 @@ header {
     }
     .center img {
         width: 800px;
+    }
+
+    .centerTable h5 {
+        padding-right: 100px;
+        padding-left: 100px;
     }
 }
