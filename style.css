@@ -157,6 +157,17 @@ header {
     width: 330px;
 }
 
+.centerTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerTable img {
+    width: 59px;
+    height: 75px;
+}
+
 #caseStudySection {
     margin: 0 100px;
 }
