@@ -104,8 +104,6 @@ p {
     flex-direction: row;
     justify-content: flex-end;
     align-self: flex-start;
-
-
 }
 
 .nav-bar li {
@@ -188,14 +186,38 @@ header {
     text-align: justify;
 }
 
+/* .footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
 
-#contactSection {
+#contactSection {}
 
+#contactSection img {
+    max-width: 50px;
 }
 
+#contactSection ul {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+#contactSection li {
+    list-style: none;
+    padding: 10px;
+}
 
-
+#contactSection p {
+    text-align: center;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
 
 /*Desktop*/
 
