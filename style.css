@@ -165,6 +165,14 @@ header {
     color: #71ACB4;
 }
 
+.centerTable img {
+    height: 300px;
+}
+
+.centerTable p {
+    text-align: justify;
+}
+
 #caseStudySection {
     /* margin: 0 100px; */
 }
